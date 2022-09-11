@@ -1,0 +1,26 @@
+{
+  "name": "odin-project-restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Page using modules and DOM manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chance093/odin-project-restaurant-page.git"
+  },
+  "author": "Chance Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chance093/odin-project-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Chance093/odin-project-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
