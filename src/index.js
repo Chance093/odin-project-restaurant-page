@@ -1,2 +1,4 @@
 import './style.css';
-console.log('Hello');
+import generateHomePage from './home';
+
+generateHomePage();
