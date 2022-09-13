@@ -3,4 +3,4 @@ import generateHomePage from './home';
 import generateMenuPage from './menu';
 
 // generateHomePage();
-generateMenuPage();
+// generateMenuPage();

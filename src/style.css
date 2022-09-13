@@ -174,11 +174,13 @@ body {
 }
 
 #content>.res-name,
-#content>.menu {
+#content>.menu,
+#content>.contact {
     margin: 30px;
 }
 
-#content>div {
+#content>div,
+#content>form {
     padding: 20px 50px;
     width: 70%;
     background-color: var(--tertiary-color);
@@ -189,4 +191,10 @@ body {
 #content>img {
     width: 60%;
     height: auto;
+}
+
+#content>form {
+    display: flex;
+    flex-direction: column;
+
 }
