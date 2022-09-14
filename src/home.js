@@ -1,5 +1,6 @@
 function generateHomePage() {
     const content = document.querySelector('#content');
+    content.innerHTML = '';
     const resName = document.createElement('div');
     const summary = document.createElement('div');
     const hours = document.createElement('div');

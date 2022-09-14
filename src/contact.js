@@ -1,5 +1,6 @@
 function generateContactPage() {
     const content = document.querySelector('#content');
+    content.innerHTML = '';
     const contactHead = document.createElement('div');
     const contactInfo = document.createElement('div');
     const form = document.createElement('form');

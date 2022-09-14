@@ -7,6 +7,7 @@ import menu4Img from './imgs/menu-4.png';
 
 function generateMenuPage() {
     const content = document.querySelector('#content');
+    content.innerHTML = '';
     const menu = document.createElement('div');
     const menu1 = new Image();
     const menu2 = new Image();
