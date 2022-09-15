@@ -1,3 +1,5 @@
+import mapImg from './imgs/map.png'
+
 function generateContactPage() {
     const content = document.querySelector('#content');
     content.innerHTML = '';
@@ -16,6 +18,7 @@ function generateContactPage() {
     const subject = document.createElement('input');
     const body = document.createElement('textarea');
     const submit = document.createElement('button');
+    const map = new Image();
     contactHead.classList.add('contact');
     firstName.setAttribute('type', 'text');
     firstName.setAttribute('placeholder', 'First Name');
@@ -28,6 +31,7 @@ function generateContactPage() {
     body.setAttribute('cols', '30');
     body.setAttribute('rows', '10');
     body.setAttribute('placeholder', 'Leave us a message...');
+    map.src = mapImg;
     contactHead.textContent = 'Contact';
     contactInfoHead.textContent = 'Contact Info:';
     springMountain.textContent = 'Spring Mountain: 111-222-3333';
@@ -49,6 +53,7 @@ function generateContactPage() {
     form.appendChild(submit);
     content.appendChild(contactHead);
     content.appendChild(contactInfo);
+    content.appendChild(map);
     content.appendChild(form);
 }
 
