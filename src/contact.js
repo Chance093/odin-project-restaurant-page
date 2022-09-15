@@ -37,7 +37,7 @@ function generateContactPage() {
     springMountain.textContent = 'Spring Mountain: 111-222-3333';
     rainbow.textContent = 'Rainbow: 111-333-4444';
     centennial.textContent = 'Centennial: 111-444-5555';
-    formHead.textContent = 'We Welcome Your Feedback';
+    formHead.textContent = 'We Welcome Your Feedback!';
     submit.textContent = 'Submit';
     contactInfo.appendChild(contactInfoHead);
     contactInfo.appendChild(springMountain);
