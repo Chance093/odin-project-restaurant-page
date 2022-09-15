@@ -1,3 +1,5 @@
+import resImg from './imgs/restaurant img.jpg';
+
 function generateHomePage() {
     const content = document.querySelector('#content');
     content.innerHTML = '';
@@ -17,10 +19,12 @@ function generateHomePage() {
     const springMountain = document.createElement('p');
     const rainbow = document.createElement('p');
     const centennial = document.createElement('p');
+    const img = new Image();
     resName.classList.add('res-name');
     summary.classList.add('summary');
     hours.classList.add('hours');
     location.classList.add('location');
+    img.src = resImg;
     resName.textContent = 'Karma Curry';
     summary.textContent = 'Here at Karma Curry, we serve the best Japanese Curry in Las Vegas. We started as a small family owned business and have grew into a hotspot known all over town. We promise you won\'t be disappointed!';
     hoursHead.textContent = 'Hours:';
@@ -48,6 +52,7 @@ function generateHomePage() {
     location.appendChild(rainbow);
     location.appendChild(centennial);
     content.appendChild(resName);
+    content.appendChild(img);
     content.appendChild(summary);
     content.appendChild(hours);
     content.appendChild(location);
