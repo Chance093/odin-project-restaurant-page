@@ -133,8 +133,8 @@ table {
 /* ================================================================================================================== */
 
 :root {
-    --lin-color: linear-gradient(rgb(66, 3, 44), rgb(193, 135, 173));
-    --primary-color: #D36B00;
+    /* --lin-color: linear-gradient(rgb(66, 3, 44), rgb(193, 135, 173)); */
+    --primary-color: rgba(0, 0, 0, 0.5);
     --secondary-color: #E6D2AA;
     --tertiary-color: #F1EFDC;
     font-family: 'Roboto', sans-serif;
@@ -144,12 +144,15 @@ table {
 body {
     min-height: 100vh;
     height: 100%;
-    background: var(--lin-color);
-    background-repeat: no-repeat;
+    background: url(./imgs/Background\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
+    color: var(--tertiary-color);
 }
 
 .navbar {
@@ -163,8 +166,8 @@ body {
 }
 
 #content {
-    background-color: var(--secondary-color);
-    width: 80%;
+    background-color: var(--primary-color);
+    width: 60%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -177,13 +180,13 @@ body {
 #content>.menu,
 #content>.contact {
     margin: 30px;
+    font-size: 2rem;
 }
 
 #content>div,
 #content>form {
     padding: 20px 50px;
     width: 70%;
-    background-color: var(--tertiary-color);
     border-radius: 8px;
     text-align: center;
 }
