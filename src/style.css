@@ -182,6 +182,7 @@ body {
 #content>.contact {
     margin: 30px;
     font-size: 3rem;
+    font-weight: bold;
 }
 
 #content>div,
@@ -201,5 +202,8 @@ body {
 #content>form {
     display: flex;
     flex-direction: column;
+}
 
+#content h2 {
+    font-weight: bold;
 }
